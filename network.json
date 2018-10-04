@@ -37,8 +37,11 @@
         },
         {
             "name": "USArrests.csv"
+        },
+        {
+            "name": "Census.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:25:44",
+    "updated_at": "2018-10-04 15:26:18",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
