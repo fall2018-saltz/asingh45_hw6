@@ -47,9 +47,6 @@
     ],
     "nodes": [
         {
-            "name": "data.csv"
-        },
-        {
             "name": "USArrests.csv"
         },
         {
@@ -72,6 +69,6 @@
             "name": "merge_df.R"
         }
     ],
-    "updated_at": "2018-10-04 15:41:52",
+    "updated_at": "2018-10-04 15:41:57",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
