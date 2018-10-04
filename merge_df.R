@@ -1,2 +1,3 @@
 
 head(arrests)
+head(arrests)
