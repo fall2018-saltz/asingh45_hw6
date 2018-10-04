@@ -33,6 +33,16 @@
             ],
             "source": "read_census.R",
             "target": "Census.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrests",
+                    "type": "csv"
+                }
+            ],
+            "source": "read_usarrests.R",
+            "target": "USArrests.csv"
         }
     ],
     "nodes": [
@@ -58,12 +68,12 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "abhishek27297",
             "desc": "Reading the USArrests dataframe",
             "name": "read_usarrests.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:33:52",
+    "updated_at": "2018-10-04 15:35:17",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
