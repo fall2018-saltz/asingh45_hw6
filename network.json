@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "output": "census",
                     "type": "csv"
                 }
@@ -57,9 +47,6 @@
     ],
     "nodes": [
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -85,6 +72,6 @@
             "name": "merge_df.R"
         }
     ],
-    "updated_at": "2018-10-04 15:41:37",
+    "updated_at": "2018-10-04 15:41:52",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
