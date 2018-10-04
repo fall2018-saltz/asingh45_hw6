@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "read_census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "census",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "read_census.R",
+            "target": "merge_df.R"
         }
     ],
     "nodes": [
@@ -38,6 +49,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:59:22",
+    "updated_at": "2018-10-04 15:59:41",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
