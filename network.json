@@ -65,10 +65,12 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "merge_df.R"
+            "assigned_to": "not assigned",
+            "desc": "Merging the two data frames ",
+            "name": "merge_df.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 15:41:57",
+    "updated_at": "2018-10-04 15:43:44",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
