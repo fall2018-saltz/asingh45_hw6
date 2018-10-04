@@ -40,8 +40,12 @@
         },
         {
             "name": "Census.csv"
+        },
+        {
+            "desc": "Reading the census data from the URL",
+            "name": "read_census.R"
         }
     ],
-    "updated_at": "2018-10-04 15:26:18",
+    "updated_at": "2018-10-04 15:27:27",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
