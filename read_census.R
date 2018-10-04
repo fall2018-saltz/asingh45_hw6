@@ -6,4 +6,3 @@ clean_df <- function(){
   colnames(census) <- c("stateName","population","popOver18","percentOver18")
   return(census)
 }
-head(census)
