@@ -7,26 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "read_usarrests.R",
-            "target": "USArrests.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "USArrests.csv",
-            "target": "merge_df.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "census",
                     "type": "csv"
                 }
@@ -36,9 +16,6 @@
         }
     ],
     "nodes": [
-        {
-            "name": "USArrests.csv"
-        },
         {
             "assigned_to": "abhishek27297",
             "desc": "Reading the USArrests dataframe",
@@ -61,6 +38,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:59:15",
+    "updated_at": "2018-10-04 15:59:22",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
