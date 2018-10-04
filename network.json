@@ -72,8 +72,12 @@
             "desc": "Reading the census data using the clean_df function created earlier",
             "name": "read_census.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "merge_df.R"
         }
     ],
-    "updated_at": "2018-10-04 15:40:34",
+    "updated_at": "2018-10-04 15:40:50",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
