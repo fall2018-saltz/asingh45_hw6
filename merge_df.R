@@ -1,2 +1,2 @@
 
-merged_df <- merge(census,arrests,by=colnames(arrests))
+merged_df <- merge(census,arrests,by.y=colnames(arrests))
