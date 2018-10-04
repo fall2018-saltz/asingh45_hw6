@@ -65,12 +65,15 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "abhishek27297",
             "desc": "Merging the two data frames ",
             "name": "merge_df.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:43:44",
+    "updated_at": "2018-10-04 15:51:19",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
