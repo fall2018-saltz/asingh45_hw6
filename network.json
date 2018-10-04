@@ -56,8 +56,12 @@
             "desc": "Reading the census data from the URL",
             "name": "read_census.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "read_usarrests.R"
         }
     ],
-    "updated_at": "2018-10-04 15:31:47",
+    "updated_at": "2018-10-04 15:33:14",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
