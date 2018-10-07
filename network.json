@@ -35,6 +35,17 @@
             ],
             "source": "read_usarrests.R",
             "target": "merge_df.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge_df.R",
+            "target": "visualizations.R"
         }
     ],
     "nodes": [
@@ -64,6 +75,6 @@
             "name": "visualizations.R"
         }
     ],
-    "updated_at": "2018-10-07 23:14:58",
+    "updated_at": "2018-10-07 23:15:22",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
