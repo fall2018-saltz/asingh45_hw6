@@ -131,8 +131,11 @@
         },
         {
             "name": "population_box.png.png"
+        },
+        {
+            "name": "murder_rate_box.png.png"
         }
     ],
-    "updated_at": "2018-10-07 23:53:56",
+    "updated_at": "2018-10-07 23:54:15",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
