@@ -71,10 +71,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "abhishek27297",
             "desc": "Contains the code to create visualizations",
-            "name": "visualizations.R"
+            "name": "visualizations.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "population_hist.png"
         }
     ],
-    "updated_at": "2018-10-07 23:16:04",
+    "updated_at": "2018-10-07 23:33:26",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
