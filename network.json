@@ -60,7 +60,7 @@
         {
             "ports": [
                 {
-                    "output": "murder_rate.png",
+                    "output": "murder_rate_hist.png",
                     "type": "png"
                 }
             ],
@@ -103,6 +103,6 @@
             "name": "murder_rate.png"
         }
     ],
-    "updated_at": "2018-10-07 23:44:38",
+    "updated_at": "2018-10-07 23:47:04",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
