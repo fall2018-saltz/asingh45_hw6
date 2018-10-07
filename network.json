@@ -88,8 +88,11 @@
         },
         {
             "name": "population_hist.png"
+        },
+        {
+            "name": "murder_rate.png"
         }
     ],
-    "updated_at": "2018-10-07 23:35:49",
+    "updated_at": "2018-10-07 23:44:23",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
