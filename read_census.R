@@ -7,3 +7,4 @@ clean_df <- function(){
   return(census)
 }
 c <- data.frame(census)
+head(c)
