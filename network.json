@@ -56,6 +56,16 @@
             ],
             "source": "visualizations.R",
             "target": "population_hist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder_rate.png",
+                    "type": "png"
+                }
+            ],
+            "source": "visualizations.R",
+            "target": "murder_rate.png"
         }
     ],
     "nodes": [
@@ -93,6 +103,6 @@
             "name": "murder_rate.png"
         }
     ],
-    "updated_at": "2018-10-07 23:44:23",
+    "updated_at": "2018-10-07 23:44:38",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
