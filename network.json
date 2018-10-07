@@ -58,8 +58,12 @@
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "desc": "Contains the code to create visualizations",
+            "name": "visualizations.R"
         }
     ],
-    "updated_at": "2018-10-04 15:59:56",
+    "updated_at": "2018-10-07 23:14:58",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
