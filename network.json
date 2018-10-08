@@ -96,7 +96,7 @@
                 }
             ],
             "source": "boxplot_visualizations.R",
-            "target": "population_box.png.png"
+            "target": "population_box.png"
         }
     ],
     "nodes": [
@@ -140,12 +140,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "population_box.png.png"
+            "name": "population_box.png"
         },
         {
             "name": "murder_rate_box.png.png"
         }
     ],
-    "updated_at": "2018-10-08 00:22:46",
+    "updated_at": "2018-10-08 00:22:58",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
