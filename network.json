@@ -86,7 +86,7 @@
                 }
             ],
             "source": "boxplot_visualizations.R",
-            "target": "murder_rate_box.png.png"
+            "target": "murder_rate_box.png"
         },
         {
             "ports": [
@@ -143,9 +143,9 @@
             "name": "population_box.png"
         },
         {
-            "name": "murder_rate_box.png.png"
+            "name": "murder_rate_box.png"
         }
     ],
-    "updated_at": "2018-10-08 00:22:58",
+    "updated_at": "2018-10-08 00:23:10",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
