@@ -97,16 +97,6 @@
             ],
             "source": "boxplot_visualizations.R",
             "target": "murder_rate_box.png.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "merged.csv",
-                    "type": "csv"
-                }
-            ],
-            "source": "merge_df.R",
-            "target": "merged.csv"
         }
     ],
     "nodes": [
@@ -154,11 +144,8 @@
         },
         {
             "name": "murder_rate_box.png.png"
-        },
-        {
-            "name": "merged.csv"
         }
     ],
-    "updated_at": "2018-10-08 00:15:49",
+    "updated_at": "2018-10-08 00:16:27",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
