@@ -1,10 +1,20 @@
 
-#head(df)
-murder_df <- data.frame(cbind(df$stateName,df$Murder*df$population))
-colnames(murder_df) <- c('stateName','NoOfMurders')
-head(murder_df)
+df['NoOfMurders'] <- df$Murder*df$population
 
 library(ggplot2)
-ggplot(aes(x=stateName,y=NoOfMurders),data=murder_df) + geom_col() +
+
+ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle('Total Murders')
+
+state_order <- df[order(df$NoOfMurders),2]
+
+ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + geom_col() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle('Total Murders')
+
+ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + 
+  geom_col(color = df$percentOver18) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(x="States",y="Number of Murders") +
   ggtitle('Total Murders')
