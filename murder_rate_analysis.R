@@ -6,6 +6,7 @@ library(ggplot2)
 ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle('Total Murders')
+ggsave('barplot1.png')
 
 state_order <- df[order(df$NoOfMurders),2]
 
