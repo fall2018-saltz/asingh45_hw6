@@ -1,6 +1,5 @@
 
 df['NoOfMurders'] <- df$Murder*df$population
-head(df)
 library(ggplot2)
 
 ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
