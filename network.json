@@ -108,6 +108,16 @@
             ],
             "source": "merge_df.R",
             "target": "murder_rate_analysis.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barplot1.png",
+                    "type": "png"
+                }
+            ],
+            "source": "murder_rate_analysis.R",
+            "target": "barplot1.png"
         }
     ],
     "nodes": [
@@ -172,6 +182,6 @@
             "name": "barplot3.png"
         }
     ],
-    "updated_at": "2018-10-09 22:16:52",
+    "updated_at": "2018-10-09 22:17:10",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
