@@ -157,10 +157,15 @@
             "name": "murder_rate_box.png"
         },
         {
+            "assigned_to": "abhishek27297",
             "desc": "Analysis of the murder rate for different states and visualizations of the same.",
-            "name": "murder_rate_analysis.R"
+            "name": "murder_rate_analysis.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "barplot1.png"
         }
     ],
-    "updated_at": "2018-10-09 15:10:27",
+    "updated_at": "2018-10-09 22:16:22",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
