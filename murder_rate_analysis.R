@@ -7,6 +7,7 @@ df['NoOfMurders'] <- df$Murder*df$population
 #Load our library for visualizations
 library(ggplot2)
 
+#Next we study how the number of variables differ for different states and
 ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle('Total Murders')
