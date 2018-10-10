@@ -21,13 +21,14 @@ ggsave('murder_rate_hist.png',plot = murder_rate_hist)
 #histograms, which is the width for a single bin(or portion) in our plot
 #We demonstrate this by looking at the histograms for other variables
 
-ggplot(aes(popOver18),data = df) +
+h1 = ggplot(aes(popOver18),data = df) +
   geom_histogram(binwidth = 1000000)
+ggsave('h1.png',plot = h1)
 
-ggplot(aes(percentOver18),data = df)+
+h2 = ggplot(aes(percentOver18),data = df)+
   geom_histogram(binwidth = 0.5)
 
-ggplot(aes(Assault),data =df) +
+h3 = ggplot(aes(Assault),data =df) +
   geom_histogram(binwidth = 10)
 
 ggplot(aes(UrbanPop),data = df) +
