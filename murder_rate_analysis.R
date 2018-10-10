@@ -32,6 +32,7 @@ ggsave('barplot2.png')
 
 #To add a third dimension to our plot we color our barplot according to a
 #third variable i.e. percentOver18 by setting the color argument as this 
+#variable. Also give our axes labels and the plot a title 
 ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + 
   geom_col(aes(color=percentOver18)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
