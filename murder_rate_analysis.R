@@ -1,4 +1,5 @@
 
+#To calculate the number of murders per state, we mutiply the murder rate for
 df['NoOfMurders'] <- df$Murder*df$population
 library(ggplot2)
 
