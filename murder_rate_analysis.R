@@ -30,6 +30,7 @@ ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + ge
   ggtitle('Total Murders')
 ggsave('barplot2.png')
 
+#To add a third dimension to our plot we color our barplot according to a
 ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + 
   geom_col(aes(color=percentOver18)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
