@@ -19,3 +19,4 @@ ggsave('murder_rate_hist.png',plot = murder_rate_hist)
 
 #To get a cleaner view of the distribution we adjust the binwidth for these 
 #histograms, which is the width for a single bin(or portion) in our plot
+
