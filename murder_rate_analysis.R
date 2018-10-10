@@ -8,8 +8,8 @@ df['NoOfMurders'] <- df$Murder*df$population
 library(ggplot2)
 
 #Next we study how the number of variables differ for different states and
-#we do this by creating a barplot (geometry=geom_col) with Number on Y axis and different
-#states on the X axis
+#we do this by creating a barplot (geometry=geom_col) with Number on Y axis and 
+#different states on the X axis. To avoid overlapping xlabels we use the theme
 ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle('Total Murders')
