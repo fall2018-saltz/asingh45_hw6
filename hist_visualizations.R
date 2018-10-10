@@ -1,5 +1,5 @@
 
-colnames(df)
+#Here we start exploring our dataframe by creating visualizations
 library(ggplot2)
 
 population_hist = ggplot(aes(population),data = df) + geom_histogram()
