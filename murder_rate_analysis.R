@@ -18,6 +18,7 @@ ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
 ggsave('barplot1.png')
 
 #Next to sort the states by the number of murders we use the order function
+#to first sort the data frame and store the sorted order of state names in a 
 state_order <- df[order(df$NoOfMurders),1]
 
 ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + geom_col() +
