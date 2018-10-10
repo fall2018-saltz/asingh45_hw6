@@ -20,3 +20,18 @@ ggsave('murder_rate_hist.png',plot = murder_rate_hist)
 #To get a cleaner view of the distribution we adjust the binwidth for these 
 #histograms, which is the width for a single bin(or portion) in our plot
 
+
+ggplot(aes(popOver18),data = df) +
+  geom_histogram(binwidth = 1000000)
+
+ggplot(aes(percentOver18),data = df)+
+  geom_histogram(binwidth = 0.5)
+
+ggplot(aes(Assault),data =df) +
+  geom_histogram(binwidth = 10)
+
+ggplot(aes(UrbanPop),data = df) +
+  geom_histogram(binwidth = 5)
+
+ggplot(aes(Rape),data = df) +
+  geom_histogram(binwidth = 5)
