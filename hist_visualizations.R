@@ -4,8 +4,8 @@
 library(ggplot2)
 
 #First we study univariate relationships by using histograms
-#We create a histogram for the population variable by passing aes, data and geometryarguments  and save it using
-#the ggsave command 
+#We create a histogram for the population variable by passing aes, data and 
+#geometry arguments as per our requirement and save it using the ggsave command 
 population_hist = ggplot(aes(population),data = df) + geom_histogram()
 ggsave('population_hist.png',plot = population_hist)
 
