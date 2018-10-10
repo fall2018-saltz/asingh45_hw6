@@ -4,6 +4,7 @@
 #variables we create a new column for number of murders by merely
 #mutiplying these and storing it seperately as follows
 df['NoOfMurders'] <- df$Murder*df$population
+#Load our library for visualizations
 library(ggplot2)
 
 ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
