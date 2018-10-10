@@ -40,6 +40,7 @@ ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) +
   ggtitle('Total Murders')
 ggsave('barplot3.png')
 
+#Next we use a scatterplot to study ternary relationships by adding color as 
 ggplot(aes(x=population,y=percentOver18),data = df) + 
   geom_point(aes(color=df$Murder),size=df$Murder)
 ggsave('scatterplot.png')
