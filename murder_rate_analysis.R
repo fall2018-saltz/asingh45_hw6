@@ -23,6 +23,7 @@ ggsave('barplot1.png')
 state_order <- df[order(df$NoOfMurders),1]
 
 #To include this sorted order in our plot, instead of passing the statename 
+#column as the X variable we convert it into a factor variable and set the levels
 ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle('Total Murders')
