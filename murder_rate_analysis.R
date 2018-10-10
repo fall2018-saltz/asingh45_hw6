@@ -7,7 +7,7 @@ ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
   ggtitle('Total Murders')
 ggsave('barplot1.png')
 
-state_order <- df[order(df$NoOfMurders),2]
+state_order <- df[order(df$NoOfMurders),1]
 
 ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
