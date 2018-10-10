@@ -15,7 +15,7 @@ ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + ge
 ggsave('barplot2.png')
 
 ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) + 
-  geom_col(color = df$percentOver18) +
+  geom_col(aes(color=percentOver18)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   labs(x="States",y="Number of Murders") +
   ggtitle('Total Murders')
