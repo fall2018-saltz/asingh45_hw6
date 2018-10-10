@@ -43,6 +43,7 @@ ggsave('barplot3.png')
 #Next we use a scatterplot to study ternary relationships by adding color as 
 #above and a new size parameter to differentite our plot 
 #Here we don't include legends for size as size differences are easily 
+#understood by merely viewing the plot 
 ggplot(aes(x=population,y=percentOver18),data = df) + 
   geom_point(aes(color=df$Murder),size=df$Murder)
 ggsave('scatterplot.png')
