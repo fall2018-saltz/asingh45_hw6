@@ -17,9 +17,9 @@ ggsave('murder_rate_hist.png',plot = murder_rate_hist)
 #Here we notice that the distribution is more spread out in comparison
 #to the population histogram
 
-#To get a cleaner view of the distribution we adjust the binwidth for these 
+#To get a cleaner view of the distribution we adjust the binwidth for  
 #histograms, which is the width for a single bin(or portion) in our plot
-
+#We demonstrate this by looking at the histograms for other variables
 
 ggplot(aes(popOver18),data = df) +
   geom_histogram(binwidth = 1000000)
