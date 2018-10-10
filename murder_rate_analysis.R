@@ -20,3 +20,7 @@ ggplot(aes(x=factor(stateName,levels = state_order),y=NoOfMurders),data=df) +
   labs(x="States",y="Number of Murders") +
   ggtitle('Total Murders')
 ggsave('barplot3.png')
+
+ggplot(aes(x=population,y=percentOver18),data = df) + 
+  geom_point(aes(color=df$Murder),size=df$Murder)
+ggsave('scatterplot.png')
