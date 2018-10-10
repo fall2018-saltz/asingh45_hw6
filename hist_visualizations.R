@@ -31,8 +31,8 @@ h2 = ggplot(aes(percentOver18),data = df)+
 h3 = ggplot(aes(Assault),data =df) +
   geom_histogram(binwidth = 10)
 
-ggplot(aes(UrbanPop),data = df) +
+h4 = ggplot(aes(UrbanPop),data = df) +
   geom_histogram(binwidth = 5)
 
-ggplot(aes(Rape),data = df) +
+h5 = ggplot(aes(Rape),data = df) +
   geom_histogram(binwidth = 5)
