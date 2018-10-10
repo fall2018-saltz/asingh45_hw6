@@ -11,6 +11,7 @@ library(ggplot2)
 #we do this by creating a barplot (geometry=geom_col) with Number on Y axis and 
 #different states on the X axis. To avoid overlapping xlabels we use the theme
 #command of ggplot and rotate the labels by an angle of 90
+#and give our plot a suitable title using ggtitle
 ggplot(aes(x=stateName,y=NoOfMurders),data=df) + geom_col() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle('Total Murders')
