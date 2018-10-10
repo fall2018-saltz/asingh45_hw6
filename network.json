@@ -138,6 +138,66 @@
             ],
             "source": "murder_rate_analysis.R",
             "target": "barplot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot.png",
+                    "type": "png"
+                }
+            ],
+            "source": "murder_rate_analysis.R",
+            "target": "scatterplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h1.png",
+                    "type": "png"
+                }
+            ],
+            "source": "hist_visualizations.R",
+            "target": "h1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h2.png",
+                    "type": "png"
+                }
+            ],
+            "source": "hist_visualizations.R",
+            "target": "h2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h3.png",
+                    "type": "png"
+                }
+            ],
+            "source": "hist_visualizations.R",
+            "target": "h3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h4.png",
+                    "type": "png"
+                }
+            ],
+            "source": "hist_visualizations.R",
+            "target": "h4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h5.png",
+                    "type": "png"
+                }
+            ],
+            "source": "hist_visualizations.R",
+            "target": "h5.png"
         }
     ],
     "nodes": [
@@ -200,8 +260,26 @@
         },
         {
             "name": "barplot3.png"
+        },
+        {
+            "name": "scatterplot.png"
+        },
+        {
+            "name": "h1.png"
+        },
+        {
+            "name": "h2.png"
+        },
+        {
+            "name": "h3.png"
+        },
+        {
+            "name": "h4.png"
+        },
+        {
+            "name": "h5.png"
         }
     ],
-    "updated_at": "2018-10-09 22:17:38",
+    "updated_at": "2018-10-10 18:41:32",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
