@@ -27,6 +27,7 @@ ggsave('h1.png',plot = h1)
 
 h2 = ggplot(aes(percentOver18),data = df)+
   geom_histogram(binwidth = 0.5)
+ggsave('h2.png',plot = h2)
 
 h3 = ggplot(aes(Assault),data =df) +
   geom_histogram(binwidth = 10)
