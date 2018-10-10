@@ -3,6 +3,7 @@
 #To create visualizations we start by loading our ggplot2 library as follows
 library(ggplot2)
 
+#First we study univariate relationships by using histograms
 population_hist = ggplot(aes(population),data = df) + geom_histogram()
 ggsave('population_hist.png',plot = population_hist)
 
