@@ -31,6 +31,7 @@ ggsave('h2.png',plot = h2)
 
 h3 = ggplot(aes(Assault),data =df) +
   geom_histogram(binwidth = 10)
+ggsave('h3.png',plot = h3)
 
 h4 = ggplot(aes(UrbanPop),data = df) +
   geom_histogram(binwidth = 5)
