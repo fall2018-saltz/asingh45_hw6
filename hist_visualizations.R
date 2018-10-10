@@ -14,3 +14,4 @@ ggsave('population_hist.png',plot = population_hist)
 #Next we examine the Murder rate variable using this approach
 murder_rate_hist = ggplot(aes(Murder),data = df) + geom_histogram()
 ggsave('murder_rate_hist.png',plot = murder_rate_hist)
+#Here we notice that the distribution is more spread out in comparison
