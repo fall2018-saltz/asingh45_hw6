@@ -7,5 +7,5 @@ clean_df <- function(){
   colnames(census) <- c("stateName","population","popOver18","percentOver18")
   return(census)
 }
-
+#Finall we save it in a dataframe object and pass it on for further processing
 census <- clean_df()
