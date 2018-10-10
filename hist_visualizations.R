@@ -1,5 +1,6 @@
 
 #Here we start exploring our dataframe by creating visualizations
+#To create visualizations we start by loading our ggplot2 library as follows
 library(ggplot2)
 
 population_hist = ggplot(aes(population),data = df) + geom_histogram()
