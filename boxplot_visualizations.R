@@ -11,3 +11,4 @@ ggsave('murder_rate_box.png',plot = murder_rate_box)
 #showing the right skewness of the population and close to normal spread
 #of murder rate
 #However boxplots show this information more concisely and also highlight 
+#factors like the 25th, 75th and the median and shows outliers more 
