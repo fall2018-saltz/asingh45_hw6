@@ -11,5 +11,6 @@ ggsave('population_hist.png',plot = population_hist)
 #We notice the histogram is right skewed with many states having population 
 #lesser than the mean and a few states having very large population
 
+#Next we examine the Murder rate variable using this approach
 murder_rate_hist = ggplot(aes(Murder),data = df) + geom_histogram()
 ggsave('murder_rate_hist.png',plot = murder_rate_hist)
