@@ -35,6 +35,8 @@ ggsave('h3.png',plot = h3)
 
 h4 = ggplot(aes(UrbanPop),data = df) +
   geom_histogram(binwidth = 5)
+ggsave('h4.png',plot = h4)
 
 h5 = ggplot(aes(Rape),data = df) +
   geom_histogram(binwidth = 5)
+ggsave('h5.png',plot = h5)
