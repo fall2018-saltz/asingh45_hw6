@@ -7,13 +7,11 @@ library(ggplot2)
 #We create a histogram for the population variable by passing aes, data and 
 #geometry arguments as per our requirement and save it using the ggsave command 
 population_hist = ggplot(aes(population),data = df) + geom_histogram()
-ggsave('population_hist.png',plot = population_hist)
 #We notice the histogram is right skewed with many states having population 
 #lesser than the mean and a few states having very large population
 
 #Next we examine the Murder rate variable using this approach
 murder_rate_hist = ggplot(aes(Murder),data = df) + geom_histogram()
-ggsave('murder_rate_hist.png',plot = murder_rate_hist)
 #Here we notice that the distribution is more spread out in comparison
 #to the population histogram
 
@@ -23,20 +21,15 @@ ggsave('murder_rate_hist.png',plot = murder_rate_hist)
 
 h1 = ggplot(aes(popOver18),data = df) +
   geom_histogram(binwidth = 1000000)
-ggsave('h1.png',plot = h1)
 
 h2 = ggplot(aes(percentOver18),data = df)+
   geom_histogram(binwidth = 0.5)
-ggsave('h2.png',plot = h2)
 
 h3 = ggplot(aes(Assault),data =df) +
   geom_histogram(binwidth = 10)
-ggsave('h3.png',plot = h3)
 
 h4 = ggplot(aes(UrbanPop),data = df) +
   geom_histogram(binwidth = 5)
-ggsave('h4.png',plot = h4)
 
 h5 = ggplot(aes(Rape),data = df) +
   geom_histogram(binwidth = 5)
-ggsave('h5.png',plot = h5)
