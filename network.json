@@ -152,16 +152,6 @@
         {
             "ports": [
                 {
-                    "output": "h3.png",
-                    "type": "png"
-                }
-            ],
-            "source": "hist_visualizations.R",
-            "target": "h3.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "h4.png",
                     "type": "png"
                 }
@@ -198,6 +188,16 @@
             ],
             "source": "hist_visualizations.R",
             "target": "h1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h3",
+                    "type": "png"
+                }
+            ],
+            "source": "hist_visualizations.R",
+            "target": "h3.png"
         }
     ],
     "nodes": [
@@ -280,6 +280,6 @@
             "name": "h5.png"
         }
     ],
-    "updated_at": "2018-10-18 15:52:58",
+    "updated_at": "2018-10-18 15:53:07",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
