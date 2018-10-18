@@ -72,16 +72,6 @@
         {
             "ports": [
                 {
-                    "output": "barplot1.png",
-                    "type": "png"
-                }
-            ],
-            "source": "murder_rate_analysis.R",
-            "target": "barplot1.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "barplot2.png",
                     "type": "png"
                 }
@@ -198,6 +188,16 @@
             ],
             "source": "boxplot_visualizations.R",
             "target": "population_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "murder_rate_analysis.R",
+            "target": "barplot1.png"
         }
     ],
     "nodes": [
@@ -280,6 +280,6 @@
             "name": "h5.png"
         }
     ],
-    "updated_at": "2018-10-18 15:54:17",
+    "updated_at": "2018-10-18 15:54:25",
     "url": "https://github.com/fall2018-saltz/asingh45_hw6"
 }
